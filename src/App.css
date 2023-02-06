@@ -3,7 +3,7 @@
 body {
   font-family: "Ribeye Marrow", cursive;
   text-align: center;
-  color:#a5ffd6; 
+  color: #a5ffd6;
   background-color: black;
 }
 
@@ -30,4 +30,10 @@ li {
   background-color: rgb(206, 200, 200);
   font-family: "Ranchers", cursive;
   text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .search-bar {
+    width: 300px;
+  }
 }

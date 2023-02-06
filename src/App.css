@@ -1,38 +1,33 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Ranchers&family=Ribeye+Marrow&display=swap");
+
+body {
+  font-family: "Ribeye Marrow", cursive;
   text-align: center;
+  color:#a5ffd6; 
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 3rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+  padding: 10px;
+  font-size: 2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-bar {
+  border-radius: 20px;
+  height: 40px;
+  width: 500px;
+  margin-top: 0px;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: rgb(206, 200, 200);
+  font-family: "Ranchers", cursive;
+  text-align: center;
 }

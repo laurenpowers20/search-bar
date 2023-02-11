@@ -9,17 +9,25 @@ function Searchbar() {
   };
 
   return (
-    <div className="search">
-      <p>Find your language or library</p>
-      <input
-        onChange={inputHandler}
-        label="Search"
-        placeholder="Search"
-        className="search-bar"
-      ></input>
+    <>
+      <div className="search">
+        <p>Find your language or library</p>
+        <div>
+          <a href="https://react-portfolio-lauren-powers.netlify.app/features">
+            {" "}
+            <button className="button-54">Back to Lil' Portfolio</button>
+          </a>
+        </div>
+        <input
+          onChange={inputHandler}
+          label="Search"
+          placeholder="Search"
+          className="search-bar"
+        ></input>
 
-      <List input={inputText} />
-    </div>
+        <List input={inputText} />
+      </div>
+    </>
   );
 }
 
